@@ -1,0 +1,6 @@
+[submodule "IONN-client"]
+	path = IONN-client
+	url = https://github.com/jinevening/IONN-client.git
+[submodule "IONN-server"]
+	path = IONN-server
+	url = https://github.com/jinevening/IONN-server.git
