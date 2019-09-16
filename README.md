@@ -1,4 +1,4 @@
-IONN (Incremental Offloading of Neural Network)
+ElasticDNN
 -----
 This repo includes the implementation of **IONN (Incremental Offloading of Neural Network)**, which was proposed by the paper titled "IONN: Incremental Offloading of Neural Network Computations From Mobile Devices to Edge Servers" published in SoCC (ACM Symposium on Cloud Computing) 2018.
 
