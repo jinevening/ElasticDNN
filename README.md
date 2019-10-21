@@ -22,6 +22,8 @@ Server-side
 $ git clone https://github.com/jinevening/IONN-server.git
 ```
 
+The header lines related to hdf5.h may have to be modified (from hdf5/serial/hdf5.h to hdf5.h) or a symbolic link from "/usr/include/hdf5/serial/" to "/usr/include/" created.
+
 2. Build our project according to the [caffe installation instructions](https://caffe.berkeleyvision.org/installation.html).
 
 Execution
@@ -54,7 +56,8 @@ While IONN-server is running on the server, IONN-client can offload DNN executio
   *path to the image file* \
   *value of K in the IONN paper* \
   incremental \
-  *optimization target*
+  *optimization target* \
+  *ip_address*
 ```
 
 Example
@@ -70,7 +73,8 @@ Example
   cat.jpg \
   0.8 \
   incremental \
-  time
+  time \
+  123.45.678.910
 ```
 
 Acknowledgements
