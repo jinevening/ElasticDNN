@@ -86,8 +86,7 @@ We implemented IONN based on *caffe*, an open source project to train and test D
 
 License and Citation
 -----
-IONN is released under the MIT license, so anyone can use this source code in any purpose.
-Please cite following papers in your publications if IONN helps your research:
+ElasticDNN is released under the BSD 2-Clause license. Please cite following papers in your publications if it helps your research:
 
 ```
 @inproceedings{jeong2018ionn,
